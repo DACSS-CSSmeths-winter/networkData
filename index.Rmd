@@ -289,12 +289,13 @@ V(EliteNet)$louvain=as.factor(membership(partition_louvain_optimal))
 V(EliteNet)$girvanNewman=as.factor(membership(partition_girvanNewman_best))
 ```
 
-Now plot:
+Now plot the one with the bet modularity:
 
 ```{r}
 base=ggraph(graph =EliteNet,layout = 'fr') + geom_edge_link(alpha=0.2)
 base + geom_node_point(aes(color=louvain), show.legend = T, size=4)
 ```
+
 An alternative:
 
 ```{r}
@@ -315,6 +316,12 @@ ggraph(EliteNet, layout = 'hive',
   coord_fixed()
 ```
 
+Time to export:
+
 ```{r, eval=TRUE}
+# you need numeric here:
+V(EliteNet)$louvain=as.numeric(V(EliteNet)$louvain)
+V(EliteNet)$girvanNewman=as.numeric(V(EliteNet)$girvanNewman)
+# so this works
 write_graph(EliteNet, "EliteNet_R.graphml", "graphml")
 ```

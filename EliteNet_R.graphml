@@ -10,6 +10,7 @@
   <key id="v_label" for="node" attr.name="label" attr.type="string"/>
   <key id="v_louvain" for="node" attr.name="louvain" attr.type="double"/>
   <key id="v_girvanNewman" for="node" attr.name="girvanNewman" attr.type="double"/>
+  <key id="v_degree" for="node" attr.name="degree" attr.type="double"/>
   <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
@@ -19,22 +20,25 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">30</data>
     </node>
     <node id="n1">
       <data key="v_name">mattmcilwain</data>
       <data key="v_male">1</data>
       <data key="v_followers">2804</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">16</data>
     </node>
     <node id="n2">
       <data key="v_name">DaveParkerSEA</data>
       <data key="v_male">1</data>
       <data key="v_followers">3328</data>
       <data key="v_label">DaveParkerSEA</data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">36</data>
     </node>
     <node id="n3">
       <data key="v_name">toddbishop</data>
@@ -43,22 +47,25 @@
       <data key="v_label">toddbishop</data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">41</data>
     </node>
     <node id="n4">
       <data key="v_name">ashannstew</data>
       <data key="v_male">0</data>
       <data key="v_followers">3382</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">4</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">18</data>
     </node>
     <node id="n5">
       <data key="v_name">LeslieFeinzaig</data>
       <data key="v_male">0</data>
       <data key="v_followers">15900</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">18</data>
     </node>
     <node id="n6">
       <data key="v_name">akipman</data>
@@ -67,30 +74,34 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">2</data>
+      <data key="v_degree">6</data>
     </node>
     <node id="n7">
       <data key="v_name">matt_oppy</data>
       <data key="v_male">1</data>
       <data key="v_followers">4847</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">26</data>
     </node>
     <node id="n8">
       <data key="v_name">gilbert</data>
       <data key="v_male">1</data>
       <data key="v_followers">25800</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">4</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">18</data>
     </node>
     <node id="n9">
       <data key="v_name">juliesandler</data>
       <data key="v_male">0</data>
       <data key="v_followers">7031</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">31</data>
     </node>
     <node id="n10">
       <data key="v_name">BradSmi</data>
@@ -99,38 +110,43 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">13</data>
     </node>
     <node id="n11">
       <data key="v_name">crashdev</data>
       <data key="v_male">0</data>
       <data key="v_followers">8773</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">25</data>
     </node>
     <node id="n12">
       <data key="v_name">ShaunaCausey</data>
       <data key="v_male">0</data>
       <data key="v_followers">47400</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">28</data>
     </node>
     <node id="n13">
       <data key="v_name">john_gabbert</data>
       <data key="v_male">1</data>
       <data key="v_followers">2482</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">7</data>
     </node>
     <node id="n14">
       <data key="v_name">moniguzman</data>
       <data key="v_male">0</data>
       <data key="v_followers">29000</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">4</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">29</data>
     </node>
     <node id="n15">
       <data key="v_name">mattmday</data>
@@ -139,14 +155,16 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">14</data>
     </node>
     <node id="n16">
       <data key="v_name">Rich_Barton</data>
       <data key="v_male">1</data>
       <data key="v_followers">31300</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">19</data>
     </node>
     <node id="n17">
       <data key="v_name">daryn</data>
@@ -155,30 +173,34 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">10</data>
     </node>
     <node id="n18">
       <data key="v_name">lovelletters</data>
       <data key="v_male">0</data>
       <data key="v_followers">4553</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">29</data>
     </node>
     <node id="n19">
       <data key="v_name">etzioni</data>
       <data key="v_male">1</data>
       <data key="v_followers">27400</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">18</data>
     </node>
     <node id="n20">
       <data key="v_name">MissDestructo</data>
       <data key="v_male">0</data>
       <data key="v_followers">41800</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">23</data>
     </node>
     <node id="n21">
       <data key="v_name">heatherredman</data>
@@ -187,14 +209,16 @@
       <data key="v_label"></data>
       <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">30</data>
     </node>
     <node id="n22">
       <data key="v_name">danshapiro</data>
       <data key="v_male">1</data>
       <data key="v_followers">10900</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">16</data>
     </node>
     <node id="n23">
       <data key="v_name">medinism</data>
@@ -203,142 +227,160 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">9</data>
     </node>
     <node id="n24">
       <data key="v_name">KieranSnyder</data>
       <data key="v_male">0</data>
       <data key="v_followers">15400</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">21</data>
     </node>
     <node id="n25">
       <data key="v_name">hadip</data>
       <data key="v_male">1</data>
       <data key="v_followers">43300</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">23</data>
     </node>
     <node id="n26">
       <data key="v_name">RajSinghSeattle</data>
       <data key="v_male">1</data>
       <data key="v_followers">4991</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">19</data>
     </node>
     <node id="n27">
       <data key="v_name">funcOfJoe</data>
       <data key="v_male">1</data>
       <data key="v_followers">9510</data>
       <data key="v_label"></data>
-      <data key="v_louvain">1</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">9</data>
     </node>
     <node id="n28">
       <data key="v_name">kirbywinfield</data>
       <data key="v_male">1</data>
       <data key="v_followers">6230</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">17</data>
     </node>
     <node id="n29">
       <data key="v_name">stevesi</data>
       <data key="v_male">1</data>
       <data key="v_followers">206666</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">26</data>
     </node>
     <node id="n30">
       <data key="v_name">Ryanintheus</data>
       <data key="v_male">1</data>
       <data key="v_followers">194239</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">14</data>
     </node>
     <node id="n31">
       <data key="v_name">sonalpmane</data>
       <data key="v_male">0</data>
       <data key="v_followers">1215</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">14</data>
     </node>
     <node id="n32">
       <data key="v_name">SoGulley</data>
       <data key="v_male">0</data>
       <data key="v_followers">965</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">22</data>
     </node>
     <node id="n33">
       <data key="v_name">2morrowknight</data>
       <data key="v_male">1</data>
       <data key="v_followers">737130</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">3</data>
+      <data key="v_degree">2</data>
     </node>
     <node id="n34">
       <data key="v_name">jinman</data>
       <data key="v_male">1</data>
       <data key="v_followers">4781</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">4</data>
+      <data key="v_degree">6</data>
     </node>
     <node id="n35">
       <data key="v_name">tarah</data>
       <data key="v_male">0</data>
       <data key="v_followers">48992</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">5</data>
+      <data key="v_degree">8</data>
     </node>
     <node id="n36">
       <data key="v_name">Jenerationy</data>
       <data key="v_male">0</data>
       <data key="v_followers">13272</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">15</data>
     </node>
     <node id="n37">
       <data key="v_name">lanctot</data>
       <data key="v_male">1</data>
       <data key="v_followers">5519</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">4</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">12</data>
     </node>
     <node id="n38">
       <data key="v_name">Kristen_Hammy</data>
       <data key="v_male">0</data>
       <data key="v_followers">1196</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">15</data>
     </node>
     <node id="n39">
       <data key="v_name">nhuntwalker</data>
       <data key="v_male">1</data>
       <data key="v_followers">5032</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">3</data>
       <data key="v_girvanNewman">6</data>
+      <data key="v_degree">7</data>
     </node>
     <node id="n40">
       <data key="v_name">eugenio_pace</data>
       <data key="v_male">1</data>
       <data key="v_followers">4908</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">7</data>
+      <data key="v_degree">3</data>
     </node>
     <node id="n41">
       <data key="v_name">JenMsft</data>
@@ -347,38 +389,43 @@
       <data key="v_label"></data>
       <data key="v_louvain">1</data>
       <data key="v_girvanNewman">8</data>
+      <data key="v_degree">7</data>
     </node>
     <node id="n42">
       <data key="v_name">PeterHamilton</data>
       <data key="v_male">1</data>
       <data key="v_followers">7329</data>
       <data key="v_label"></data>
-      <data key="v_louvain">4</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">11</data>
     </node>
     <node id="n43">
       <data key="v_name">sarahstood</data>
       <data key="v_male">0</data>
       <data key="v_followers">1118</data>
       <data key="v_label"></data>
-      <data key="v_louvain">2</data>
+      <data key="v_louvain">5</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">8</data>
     </node>
     <node id="n44">
       <data key="v_name">mcolacurcio</data>
       <data key="v_male">0</data>
       <data key="v_followers">2039</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">2</data>
       <data key="v_girvanNewman">1</data>
+      <data key="v_degree">12</data>
     </node>
     <node id="n45">
       <data key="v_name">marybethlambert</data>
       <data key="v_male">0</data>
       <data key="v_followers">1010</data>
       <data key="v_label"></data>
-      <data key="v_louvain">3</data>
+      <data key="v_louvain">1</data>
       <data key="v_girvanNewman">9</data>
+      <data key="v_degree">5</data>
     </node>
     <edge source="n0" target="n1">
       <data key="e_weight">1</data>
