@@ -319,6 +319,8 @@ ggraph(EliteNet, layout = 'hive',
 Time to export:
 
 ```{r, eval=TRUE}
+
+
 # you need numeric here:
 V(EliteNet)$louvain=as.numeric(V(EliteNet)$louvain)
 V(EliteNet)$girvanNewman=as.numeric(V(EliteNet)$girvanNewman)
